@@ -48,10 +48,10 @@ user_external_hash=a494073dcdecbbbc79a9c77f72524ac9994d2eec
 
 apt-get purge -qq -y owncloud* # we used to use the package manager
 
-apt_install curl php8.1 php8.1-fpm \
-	php8.1-cli php8.1-sqlite3 php8.1-gd php8.1-imap php8.1-curl \
-	php8.1-dev php8.1-xml php8.1-mbstring php8.1-zip php8.1-apcu \
-	php8.1-intl php8.1-imagick php8.1-gmp php8.1-bcmath
+apt_install curl php-fpm \
+	php-cli php-sqlite3 php-gd php-imap php-curl \
+	php-dev php-xml php-mbstring php-zip php-apcu \
+	php-intl php-imagick php-gmp php-bcmath
 
 PHP_VER=$(php_version)
 

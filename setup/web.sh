@@ -19,7 +19,7 @@ fi
 
 echo "Installing Nginx (web server)..."
 
-apt_install nginx php8.1-cli php8.1-fpm idn2
+apt_install nginx php-cli php-fpm idn2
 
 rm -f /etc/nginx/sites-enabled/default
 
